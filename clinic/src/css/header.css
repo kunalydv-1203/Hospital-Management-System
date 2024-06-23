@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+*{
+    margin: 0px;
+    padding:0px ;
+    font-family: "Reddit Mono";
+}
+
+
+
+nav{
+   
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    background-color:  #5BC0DE
+}
+
+nav .logo{
+  margin-left: 8%;
+    width: 26%;
+  height: 9vh;
+  line-height: 9vh;
+    display: flex;
+    color: #f1efef;
+    font-size: 1.2rem;
+   
+
+}
+
+.logo #logotext{
+    border-bottom: 2px solid  #ffffff;
+    padding: 0px 10px;
+    height: 7vh;
+}
+
+nav .logo img{
+    height: 9vh;
+    width: 8vw;
+    mix-blend-mode: color-burn;
+}                                                                  
+
+
+
+
+nav .options ul {
+    display: flex;
+    justify-content: space-around;
+  
+    height: 10vh;
+    line-height: 10vh;
+    
+}
+
+nav .options ul li{
+    height: 8vh;
+    
+    list-style: none;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+ 
+    padding: 0px 10px;
+    margin: 0px 5px;
+}
+
+#logout{
+    height: 8vh;
+    
+    list-style: none;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+ background-color: #5BC0DE;
+    padding: 0px 10px;
+    margin: 0px 5px;
+}
+
+nav .options ul li:hover{
+ 
+    color: #ffffff;
+    font-weight: 800;
+    border-bottom: 2px solid  #ffffff;
+    cursor: pointer;
+   
+}

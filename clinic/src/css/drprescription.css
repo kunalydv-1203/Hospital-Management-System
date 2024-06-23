@@ -1,0 +1,59 @@
+.page2{
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px ;
+    background-image: url("http://localhost:3000/lr1.png");
+    background-size: contain;
+   
+    color: black;
+   
+}
+
+.prescription{
+    height: auto;
+    width: auto;
+    background-color:  rgba(255, 255, 255, 0.95);
+    padding: 15px ;
+    border: 4px solid  rgb(129, 127, 127);
+    border-radius: 2rem;
+}
+
+.f1{
+   
+    display: flex;
+    gap: 10rem;
+    font-size: 1.4rem;
+
+}
+
+.f11{
+    margin: 0px 15px;
+    padding: 10px;
+}
+
+.fd1{
+    margin: 12px 0px;
+}
+
+.f2,.f3{
+    font-size: 1.4rem;
+    margin-left: 25px;
+}
+
+.btnfour{
+    padding: 5px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: #5BC0DE ;
+    width: 96.5%;
+    margin-left: 1.5rem;
+}
+
+.btnfour:hover{
+    background-color: #28809b ;
+}

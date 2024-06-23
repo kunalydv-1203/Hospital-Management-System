@@ -1,0 +1,157 @@
+.container{
+    background-color: #b0e5f5;
+
+}
+
+.bg{
+    background-image: url("http://localhost:3000/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80vh;
+    width: 100%;
+}
+
+/* .bg img{
+    height: 75vh;
+    width: 100%;
+    object-fit: cover;
+} */
+
+.head{
+ 
+    width: 61%;
+    padding: 30px ;
+   
+   
+}
+
+.hone{
+    margin: 5px;
+    
+    font-size: 3.8rem;
+
+}
+
+.htwo{
+    margin: 10px 5px;
+    font-size: 2rem;
+}
+
+.pone{
+    margin: 25px 2px;
+    width: 90%;
+   
+    font-size: 1.5rem;
+}
+
+.ptwo{
+    font-size: 1.5rem;
+}
+
+.btnone{
+    background-color: rgba(255,255,255,0.1);
+    padding: 8px;
+    border-radius: 2rem ;
+    border: 2px solid  #F8F9FA;
+    cursor: pointer;
+   
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+
+.btnone:hover{
+    background-color: rgba(255,255,255,0.5);
+    border: 2px solid  black;
+}
+
+.cards{
+    height: auto;
+    width: 80%;
+    margin-left: 9.5rem;
+    
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #F8F9FA; */
+    padding: 7px;
+    color: white;
+    font-weight: 200;
+}
+
+.cards .card{
+    border: 2px solid black;
+    height:30vh ;
+    width: 27%;
+    border-radius: 2rem;
+    background-color: rgb(22, 95, 160); 
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+
+.cards .card:hover{
+    scale: 1.1;
+}
+
+.card .pn{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .pn img{
+    width: 15%;
+    height: 8vh;
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+
+.card .pn span{
+    border-left: 3px solid white;
+    padding-left:8px ;
+  
+}
+
+.card .paraone{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+
+}
+
+.card .paratwo{
+   padding: 0px 12px;
+}
+
+.section{
+   height: auto;
+    width: 90%;
+    background-color: #5BC0DE;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    padding: 10px;
+    position: relative;
+    bottom: 5px;
+}
+
+.hthree{
+    margin: 10px 0px;
+    width: 95%;
+}
+
+.pthree{
+    width: 95%;
+}
+
+.pfour{
+    margin-top: 25px;
+}
+
+.btntwo{
+    background-color: rgba(255,255,255,0.1);
+    padding: 7px;
+    font-weight: 700;
+}
